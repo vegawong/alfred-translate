@@ -12,7 +12,7 @@
 
 4. 打开对应的平台，创建自己的应用拿到对应的appId和appKey等信息填进去即可使用
 
-5. 
+5. 使用方式
 
     ```
     # alfred input
@@ -28,6 +28,6 @@
 
 7. 目前支持keyword
 
-    - yfy：有道智云
-
-    - tfy: 腾讯
+    - yfy: 有道智云 [https://ai.youdao.com/gw.s](https://ai.youdao.com/gw.s)
+      
+    - tfy: 腾讯 [https://ai.qq.com/](https://ai.qq.com/)
