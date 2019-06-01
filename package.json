@@ -1,0 +1,27 @@
+{
+  "name": "alfred-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --target node10-macos-x64  --out-path ./bin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "md5": "^2.2.1",
+    "qs": "^6.7.0",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  },
+  "bin": "./index.js",
+  "pkg": {
+    "scripts": "./src/*.js"
+  }
+}
