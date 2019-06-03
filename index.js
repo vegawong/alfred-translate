@@ -6,5 +6,5 @@ if(!cmd) {
     process.exit(1)
 }
 
-require('./src/' + cmd + '.js')
+require('./src/cmds/' + cmd + '.js')
 
